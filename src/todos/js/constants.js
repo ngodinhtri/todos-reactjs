@@ -1,3 +1,9 @@
-export const SET_TODO = "set_todo";
+export const START_EDIT_TODO = "start_edit_todo";
+export const END_EDIT_TODO = "end_edit_todo";
+export const CANCEL_EDIT_TODO = "cancel_edit_todo";
 export const ADD_TODO = "add_todo";
 export const DELETE_TODO = "delete_todo";
+export const TOGGLE_TODO_ITEM = "toggle_todo_item";
+export const TOGGLE_ALL_TODO_ITEMS = "toggle_all_todo_items";
+export const SWITCH_FILTER = "switch_filter";
+export const DELETE_COMPLETED_TODO_ITEMS = "delete_completed_todo_items";
